@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Trilha de CSS - DIO - Youtube Video Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-icons">
+        <button>
+          <img class="menu-icon" src="assets/icons/menu-icon.svg" />
+        </button>
+        <a href="/"><img class="logo" src="assets/icons/logo.svg" /></a>
+      </div>
+      <div id="search-container">
+        <input type="text" name="search" id="search-field" /><button
+          class="search-button"
+        >
+          <img src="assets/icons/search-icon.svg" />
+        </button>
+      </div>
+      <div class="right-icons">
+        <button>
+          <img class="create-icon" src="assets/icons/create-icon.svg" />
+        </button>
+        <button>
+          <img
+            class="notifications-icon"
+            src="assets/icons/notifications-icon.svg"
+          />
+        </button>
+        <button class="avatar-btn">
+          <img class="avatar" src="assets/images/avatar.png" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <aside id="sidebar">
+        <ul class="menu-home">
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/home-icon.svg"
+                alt="icon-inicio"
+                class="menu-icon"
+              /><span>Início</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/compass-icon.svg"
+                alt="icon-explorar"
+                class="menu-icon"
+              /><span>Explorar</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/youtube-icon.svg"
+                alt="icon-inscricoes"
+                class="menu-icon"
+              /><span>Inscrições</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/disk-icon.svg"
+                alt="icon-youtube-music"
+                class="menu-icon"
+              /><span>YouTube Music</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/like-icon.svg"
+                alt="icon-vídeos-que-gostei"
+                class="menu-icon"
+              /><span>Vídeos que gostei</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/clock-icon.svg"
+                alt="icon-assistir-mais-tarde"
+                class="menu-icon"
+              /><span>Assistir mais tarde</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/download-icon.svg"
+                alt="icon-downloads"
+                class="menu-icon"
+              /><span>Downloads</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/film-icon.svg"
+                alt="icon-filmes"
+                class="menu-icon"
+              /><span>Filmes</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/book-icon.svg"
+                alt="icon-aprender"
+                class="menu-icon"
+              /><span>Aprender</span>
+            </li>
+          </a>
+          <a href="/">
+            <li class="menu-item">
+              <img
+                src="/assets/icons/award-icon.svg"
+                alt="icon-esportes"
+                class="menu-icon"
+              /><span>Esportes</span>
+            </li>
+          </a>
+        </ul>
+      </aside>
+      <section id="feed">
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Global Skills #2 - Project Planning"
+              title="Global Skills #2 - Project Planning vídeo"
+              src="assets/images/thumb-4.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">Global Skills #2 - Project Planning</h3>
+              <p class="metadata">
+                <span class="views">971 visualizações</span>
+                <span class="date">Transmitido há 5 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Geração Tech Unimed - BH - Ciência de Dados"
+              title="Geração Tech Unimed - BH - Ciência de Dados vídeo"
+              src="assets/images/thumb-1.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Geração Tech Unimed - BH - Ciência de Dados
+              </h3>
+              <p class="metadata">
+                <span class="views">2,1 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Scrum talks"
+              title="Scrum talks vídeo"
+              src="assets/images/thumb-2.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">Scrum talks</h3>
+              <p class="metadata">
+                <span class="views">1,6 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Machine Learning Avançado - Fast Track"
+              title="Machine Learning Avançado - Fast Track vídeo"
+              src="assets/images/thumb-3.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Machine Learning Avançado - Fast Track
+              </h3>
+              <p class="metadata">
+                <span class="views">1,7 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Global Skills #2 - Project Planning"
+              title="Global Skills #2 - Project Planning vídeo"
+              src="assets/images/thumb-4.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">Global Skills #2 - Project Planning</h3>
+              <p class="metadata">
+                <span class="views">971 visualizações</span>
+                <span class="date">Transmitido há 5 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Como aprender a programar Python do ZERO"
+              title="Como aprender a programar Python do ZERO vídeo"
+              src="assets/images/thumb-5.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Como aprender a programar Python do ZERO
+              </h3>
+              <p class="metadata">
+                <span class="views">711 visualizações</span>
+                <span class="date">Transmitido há 6 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Geração Tech Unimed - BH - Ciência de Dados"
+              title="Geração Tech Unimed - BH - Ciência de Dados vídeo"
+              src="assets/images/thumb-1.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Geração Tech Unimed - BH - Ciência de Dados
+              </h3>
+              <p class="metadata">
+                <span class="views">2,1 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Scrum talks"
+              title="Scrum talks vídeo"
+              src="assets/images/thumb-2.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">Scrum talks</h3>
+              <p class="metadata">
+                <span class="views">1,6 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Machine Learning Avançado - Fast Track"
+              title="Machine Learning Avançado - Fast Track vídeo"
+              src="assets/images/thumb-3.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Machine Learning Avançado - Fast Track
+              </h3>
+              <p class="metadata">
+                <span class="views">1,7 mil visualizações</span>
+                <span class="date">Transmitido há 3 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Global Skills #2 - Project Planning"
+              title="Global Skills #2 - Project Planning vídeo"
+              src="assets/images/thumb-4.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">Global Skills #2 - Project Planning</h3>
+              <p class="metadata">
+                <span class="views">971 visualizações</span>
+                <span class="date">Transmitido há 5 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div class="home-video-card">
+            <img
+              class="thumbnail"
+              alt="Como aprender a programar Python do ZERO"
+              title="Como aprender a programar Python do ZERO vídeo"
+              src="assets/images/thumb-5.png"
+            />
+            <img
+              class="channel-avatar"
+              alt="Avatar do canal DIO"
+              title="Avatar do canal DIO"
+              src="assets/images/channel-avatar.png"
+            />
+            <div class="info">
+              <h3 class="video-title">
+                Como aprender a programar Python do ZERO
+              </h3>
+              <p class="metadata">
+                <span class="views">711 visualizações</span>
+                <span class="date">Transmitido há 6 dias</span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

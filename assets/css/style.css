@@ -1,0 +1,94 @@
+@import url('reset.css');
+
+body {
+  background: #f9f9f9;
+  color: #000;
+}
+
+header {
+  background: #fff;
+
+  height: 56px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0px;
+}
+header button {
+  background: transparent;
+
+  display: flex;
+
+  border: none;
+}
+
+header .left-icons {
+  margin: 0 24px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 32px;
+}
+header .left-icons a,
+header .left-icons .logo {
+  height: 20px;
+}
+
+header #search-container {
+  width: 404px;
+  height: 40px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: stretch;
+}
+
+header #search-container button,
+header #search-container input {
+  padding: 5px;
+
+  border: 1px solid #ccc;
+
+  outline: none;
+}
+
+header #search-container button {
+  background-color: #f8f8f8;
+
+  width: 57px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+header #search-container button:hover {
+  background-color: #f0f0f0;
+}
+
+header #search-container button img {
+  width: 24px;
+  height: 24px;
+}
+
+header #search-container input {
+  border-right: 0px;
+  flex: 1;
+}
+
+header .right-icons {
+  margin: 0 24px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}

@@ -132,3 +132,48 @@ main aside#menu li {
   align-items: center;
   gap: 16px;
 }
+
+main section#feed {
+  padding: 24px 28px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 14px;
+  overflow: auto;
+}
+
+main section#feed a.video-container {
+  margin: 16px;
+  text-decoration: none;
+}
+
+main section#feed .home-video-card {
+  color: #000;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: row;
+  gap: 16px 10px;
+}
+
+main section#feed .home-video-card .thumbnail {
+  width: 100%;
+  min-width: 160px;
+
+  grid-column: 1 / span 2;
+}
+
+main section#feed .home-video-card .info {
+  color: #515151;
+  min-width: 120px;
+  font-size: 1.2rem;
+
+  display: block;
+}
+
+main section#feed .home-video-card .info h3 {
+  color: #000;
+  font-size: 1.4rem;
+}
